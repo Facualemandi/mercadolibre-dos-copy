@@ -1,0 +1,55 @@
+.section_container_nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff159;
+}
+
+.container_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff159;
+    width: 100vw;
+}    
+
+.logo{
+    width: 75px;
+    height: 40px;
+    margin-top: 5px;
+}    
+
+.input_nav{
+    width: 23vh;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}    
+
+.icon_menu_cart{
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+    color: grey;
+    
+}    
+.icon_menu_nav{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    color: grey;
+    
+}    
+
+.section_search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(180, 180, 180);
+}  
+
+.icon_logo{
+    margin-left: 5px;
+}
+
