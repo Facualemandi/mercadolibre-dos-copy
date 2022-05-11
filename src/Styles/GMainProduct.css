@@ -8,19 +8,20 @@
   }
   
   .newSold span {
-    margin: 3px;
+    margin: 3px 7px;
   }
   
   .description_principal_product {
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
-    margin: 3px;
+    margin: 3px 7px;
   }
   
   .icon_star {
     width: 15px;
     height: 15px;
     color: rgb(64, 115, 234);
+    margin-left: 7px;
   }
   
   .icon_container span:nth-child(2) {
@@ -76,13 +77,13 @@
   
   .container_colorAndimg {
     border-radius: 10px;
-    width: 45vh;
+    width: 40vh;
     margin: 2vh auto;
     padding: 2vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(200, 200, 200);
   }
   
   .shortProduct_principal {
