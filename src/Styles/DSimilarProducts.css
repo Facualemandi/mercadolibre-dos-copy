@@ -28,7 +28,6 @@
 }
 
 .Products_section_container section {
-  box-shadow: 1px 1px 3px 1px rgb(175, 175, 175);
   min-width: 310px;
   height: 100px;
 }
@@ -70,8 +69,14 @@
   font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
+.Header_Product_Desktop{
+  display: none;
+}
 
 @media (min-width: 1000px) {
+  .Header_Product_Desktop{
+    display: block;
+  }
   .Products_section_container {
     width: 120vh;
     margin: auto;

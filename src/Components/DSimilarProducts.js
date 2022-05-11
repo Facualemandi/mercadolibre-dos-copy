@@ -5,6 +5,7 @@ import auri1 from "../Images/auriculares1.png";
 import auri2 from "../Images/auriculares2.png";
 import auri3 from "../Images/auriculares3.png";
 import EDarkMode from "./EDarkMode";
+import JHeaderMainProduct from "./JHeaderMainProduct";
 
 const DSimilarProducts = ({darkMode, handleDarkMode}) => {
   return (
@@ -45,6 +46,10 @@ const DSimilarProducts = ({darkMode, handleDarkMode}) => {
         </section>
           <EDarkMode darkMode={darkMode} handleDarkMode={handleDarkMode}/>
       </section>
+
+       <section className="Header_Product_Desktop">
+           <JHeaderMainProduct/>
+       </section>
     </>
   );
 };

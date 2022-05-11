@@ -189,6 +189,7 @@
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
+    background-color: white;
   }
 
   .newSold {
