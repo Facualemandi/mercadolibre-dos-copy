@@ -1,138 +1,296 @@
+* {
+  box-sizing: border-box;
+}
 
-  .newSold {
-    display: flex;
-    color: #75757e;
-    font-size: 12px;
-    font-family: sans-serif;
-    margin: 1px;
-  }
-  
-  .newSold span {
-    margin: 3px 7px;
-  }
-  
-  .description_principal_product {
-    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    margin: 3px 7px;
-  }
-  
-  .icon_star {
-    width: 15px;
-    height: 15px;
-    color: rgb(64, 115, 234);
-    margin-left: 7px;
-  }
-  
-  .icon_container span:nth-child(2) {
-    font-size: 12px;
-    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-    color: rgb(132, 132, 132);
-  }
-  
-  .principalProduct {
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;
-  }
-  
-  .secondProduct {
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;
-  }
-  .threeProduct {
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;
-  }
-  .fourProduct {
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;
-  }
-  .fiveProduct {
-    width: 280px;
-    height: 280px;
-    display: flex;
-    margin: auto;
-  }
-  
-  .container_img_Principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .color_black {
-    display: flex;
-    flex-direction: column;
-    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
-  }
-  
-  .container_colorAndimg {
-    border-radius: 10px;
-    width: 40vh;
-    margin: 2vh auto;
-    padding: 2vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(200, 200, 200);
-  }
-  
-  .shortProduct_principal {
-    width: 35px;
-    height: 35px;
-  }
-  
+/* VERSION MOBILE */ /* VERSION MOBILE */ /* VERSION MOBILE */
+
+.newSold {
+  display: flex;
+  color: #75757e;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin: 1px;
+}
+
+.newSold span {
+  margin: 3px 7px;
+}
+
+.description_principal_product {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin: 3px 7px;
+}
+
+.icon_star {
+  width: 15px;
+  height: 15px;
+  color: rgb(64, 115, 234);
+  margin-left: 7px;
+}
+
+
+.icon_container span:nth-child(2) {
+  font-size: 12px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(132, 132, 132);
+}
+
+.firstProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+
+.secondProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+.threeProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+.fourProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+.fiveProduct {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+}
+
+.container_img_Principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color_black {
+  display: flex;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.container_colorAndimg {
+  border-radius: 10px;
+  width: 40vh;
+  margin: 2vh auto;
+  padding: 2vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+}
+
+.shortProduct_principal {
+  width: 35px;
+  height: 35px;
+}
+
+.PrincipalProduct_price {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+}
+
+.PrincipalProduct_price span:nth-child(1) {
+  font-size: 32px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.PrincipalProduct_price span:nth-child(2) {
+  font-size: 18px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.PrincipalProduct_price a {
+  font-size: 14px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.changePrincipalProduct {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(200, 200, 200);
+  background-color: rgb(210, 210, 210);
+  border-radius: 100%;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin-right: 2vh;
+}
+
+.hrMainProduct {
+  display: none;
+}
+
+.productDesktop,
+.price_principalProduct_Desktop,
+.fiveProductDesktop,
+.container {
+  display: none;
+}
+
+/* VERSION DESKTOP */ /* VERSION DESKTOP */ /* VERSION DESKTOP */
+
+@media (min-width: 1000px) {
   .PrincipalProduct_price {
+    display: none;
+  }
+  .changePrincipalProduct {
+    display: none;
+  }
+
+  .container_colorAndimg{
+    display: none;
+  }
+  .productDesktop,
+  .price_principalProduct_Desktop,
+  .container {
+    display: block;
+  }
+  .price_principalProduct_Desktop {
     display: flex;
     flex-direction: column;
     margin: 1vh;
   }
-  
-  .PrincipalProduct_price span:nth-child(1) {
+
+  .price_principalProduct_Desktop span:nth-child(1) {
     font-size: 32px;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   }
-  .PrincipalProduct_price span:nth-child(2) {
+  .price_principalProduct_Desktop span:nth-child(2) {
     font-size: 18px;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   }
-  .PrincipalProduct_price a {
+  .price_principalProduct_Desktop a {
     font-size: 14px;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   }
-  
-  .changePrincipalProduct {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(200, 200, 200);
-    background-color: rgb(210, 210, 210);
-    border-radius: 100%;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    margin-right: 2vh;
-  }
-  
-  .hrMainProduct{
-      display: none;
-  }
-  
 
-  
-  /* Dark Mode  */  /* Dark Mode  */  /* Dark Mode  */
+  .section_product_desktop {
+    border: 1px solid rgb(200, 200, 200);
+    margin: 1vh;
+    border-radius: 5px;
+  }
+
+  .PrincipalProduct {
+    width: 118vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .newSold {
+    display: flex;
+    margin-left: 1vh;
+    margin-top: 2vh;
+  }
+  .description_principal_product {
+    font-size: 23px;
+    width: 30vh;
+    margin-left: 1.5vh;
+    margin-top: 2vh;
+  }
+
+  .icon_container{
+    margin-left: 1vh;
+    margin-top: 2vh;
+  }
+
+  .firstProduct {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: 5vh 5vh 5vh 5vh;
+  }
+
+  .productDesktop {
+    margin-top: 3vh;
+    cursor: pointer;
+  }
+  .productDesktop img:active {
+    border: 7px solid rgb(157, 199, 254);
+  }
+
+  .firstItem {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 1vh 1vh;
+    border-radius: 5px;
+  }
+
+  .secondProduct {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 1vh 1vh;
+    border-radius: 5px;
+  }
+  .threeProduct {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 1vh;
+    border-radius: 5px;
+  }
+  .fourProduct {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin: auto;
+    border: 1px solid grey;
+    margin: 1vh;
+    border-radius: 5px;
+  }
+  .fiveProduct {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 1vh;
+    border-radius: 5px;
+  }
+
+  .color_black{
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    margin-top: 2vh;
+  }
+  .color_black span:nth-child(1){
+    font-size: 25px;
+  }
+  .color_black span:nth-child(2){
+    margin-left: 1vh;
+  }
+
+}
+
+
+
+
+/* Dark Mode  */ /* Dark Mode  */ /* Dark Mode  */
 .PrincipalProduct {
-  background-color: white;
+  box-shadow: 1px 1px 3px 1px rgb(196, 196, 196);
   border-radius: 3px;
 }
 .principalProdcut-active {
@@ -149,13 +307,11 @@
   color: white;
 }
 
-.conatiner_active{
+.conatiner_active {
   background-color: white;
 }
 
-.principal_a_darkMode{
+.principal_a_darkMode {
   color: rgb(207, 185, 144);
 }
-  /* Dark Mode  */  /* Dark Mode  */  /* Dark Mode  */
-  
-  
+/* Dark Mode  */ /* Dark Mode  */ /* Dark Mode  */

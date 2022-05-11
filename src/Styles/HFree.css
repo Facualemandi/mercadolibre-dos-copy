@@ -1,0 +1,63 @@
+.container_free{
+    padding: 2vh;
+    font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
+    display: none;
+}
+
+.entregaOnBlack{
+    background-color: rgb(32, 32, 32);
+}
+
+.desktop_envio_gratis{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.desktop_devolucion_gratis{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.desktop_envio_gratis p{
+    color: #00A650;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family:Helvetica ,Helvetica,Arial,sans-serif;
+}
+
+.desktop_devolucion_gratis p{
+    color: #00A650;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family:Helvetica ,Helvetica,Arial,sans-serif;
+}
+.envioGratis{
+    display: flex;
+}
+.devolucionGratis{
+    display: flex;
+    margin-top: 2vh;
+}
+
+.faCarSide{
+    color: #00A650;
+}
+
+.faLeftLong{
+    color: #00A650;
+}
+
+.totalDevoluciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.devolucion{
+    color: grey;
+    font-size: 14px;
+}
+
+a{
+    font-size: 16px;
+}

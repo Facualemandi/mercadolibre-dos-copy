@@ -44,6 +44,44 @@ function App() {
     }
   };
 
+  const changeOneImage = () =>{
+    setProductTwo(false)
+    setProductOne(true);
+    setProductThree(false);
+    setProductFour(false);
+    setProductFive(false);
+}
+
+const changeSecondImgae = () =>{
+     setProductTwo(true)
+     setProductOne(false);
+     setProductThree(false);
+     setProductFour(false);
+     setProductFive(false);
+}
+const changeThreeImage = () =>{
+     setProductTwo(false)
+     setProductOne(false);
+     setProductThree(true);
+     setProductFour(false);
+     setProductFive(false);
+}
+const changeFourImage = () =>{
+     setProductTwo(false)
+     setProductOne(false);
+     setProductThree(false);
+     setProductFour(true);
+     setProductFive(false);
+}
+const changeFiveImage = () =>{
+     setProductTwo(false)
+     setProductOne(false);
+     setProductThree(false);
+     setProductFour(false);
+     setProductFive(true);
+}
+
+
    
 
 
@@ -55,6 +93,11 @@ function App() {
     <DSimilarProducts darkMode={darkMode} handleDarkMode={handleDarkMode}/>
     <GMainProduct
      onChangeProduct={onChangeProduct}
+     changeOneImage={changeOneImage}
+     changeSecondImgae={changeSecondImgae}
+     changeThreeImage={changeThreeImage}
+     changeFourImage={changeFourImage}
+     changeFiveImage={changeFiveImage}
      productOne={productOne}
      productTwo={productTwo}
      productThree={productThree}
