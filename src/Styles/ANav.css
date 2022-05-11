@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff159;
     width: 100vw;
 }    
 
@@ -27,15 +26,15 @@
 }    
 
 .icon_menu_cart{
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
     margin-left: 8px;
     color: grey;
     
 }    
 .icon_menu_nav{
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
     margin-left: 5px;
     color: grey;
     
