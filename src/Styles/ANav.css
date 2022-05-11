@@ -26,21 +26,21 @@
 }   
 
 .icons_nav{
-    width: auto;
+    width: 100vmax;
     display: flex;
     justify-content: space-around;
 }
 
 .icon_menu_cart{
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
     margin-left: 3px;
     color: grey;
     
 }    
 .icon_menu_nav{
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
     margin-left: 5px;
     color: grey;
     
