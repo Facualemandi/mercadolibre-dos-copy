@@ -20,8 +20,11 @@ const ANav = () => {
             placeholder="Estoy buscando..."
           />
           </div>
-          <GiHamburgerMenu className="icon_menu_cart" />
-          <AiOutlineShoppingCart className="icon_menu_nav" />
+
+          <section className="icons_nav">
+          <AiOutlineShoppingCart className="icon_menu_cart" />
+          <GiHamburgerMenu className="icon_menu_nav" />
+          </section>
 
 
         </section>
