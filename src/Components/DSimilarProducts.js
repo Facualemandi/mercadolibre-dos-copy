@@ -9,9 +9,9 @@ import EDarkMode from "./EDarkMode";
 const DSimilarProducts = ({darkMode, handleDarkMode}) => {
   return (
     <>
-      <main className={`${darkMode && 'darkMode'}`}>
+      <section className={`${darkMode && 'darkMode'}`}>
 
-        <p className={`cheap`}> Productos Similares más baratos </p>
+        <p className={`cheap ${darkMode && 'is-active'}`}> Productos Similares más baratos </p>
 
         <section className="Products_section_container">
           <section className="section_auri">
@@ -43,9 +43,8 @@ const DSimilarProducts = ({darkMode, handleDarkMode}) => {
             </div>
           </section>
         </section>
-
           <EDarkMode darkMode={darkMode} handleDarkMode={handleDarkMode}/>
-      </main>
+      </section>
     </>
   );
 };

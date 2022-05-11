@@ -1,10 +1,13 @@
 .btn_darkMode{
+    position: fixed;
     padding: 2vh;
     border-radius: 100%;
     border: none;
-    position: absolute;
     bottom: 2vh;
     right: 2vh;
+    background-color: rgb(182, 182, 182);
+    color: rgb(0, 0, 0);
+    transition: 1s;
 }
 
 .icon_dark_mode{

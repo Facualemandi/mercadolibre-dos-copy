@@ -1,5 +1,8 @@
 .darkMode {
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(32, 32, 32);
+}
+.cheap.is-active {
+  color: rgb(207, 185, 144);
 }
 
 .headphones {
@@ -17,9 +20,6 @@
   color: rgb(93, 93, 93);
 }
 
-.cheap.is-active {
-  color: rgb(255, 255, 255);
-}
 
 .Products_section_container {
   max-height: 130px;

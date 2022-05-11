@@ -1,0 +1,160 @@
+
+  .newSold {
+    display: flex;
+    color: #75757e;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 1px;
+  }
+  
+  .newSold span {
+    margin: 3px;
+  }
+  
+  .description_principal_product {
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    margin: 3px;
+  }
+  
+  .icon_star {
+    width: 15px;
+    height: 15px;
+    color: rgb(64, 115, 234);
+  }
+  
+  .icon_container span:nth-child(2) {
+    font-size: 12px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(132, 132, 132);
+  }
+  
+  .principalProduct {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+  }
+  
+  .secondProduct {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+  }
+  .threeProduct {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+  }
+  .fourProduct {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+  }
+  .fiveProduct {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+  }
+  
+  .container_img_Principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .color_black {
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+  }
+  
+  .container_colorAndimg {
+    border-radius: 10px;
+    width: 45vh;
+    margin: 2vh auto;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  .shortProduct_principal {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .PrincipalProduct_price {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+  }
+  
+  .PrincipalProduct_price span:nth-child(1) {
+    font-size: 32px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .PrincipalProduct_price span:nth-child(2) {
+    font-size: 18px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .PrincipalProduct_price a {
+    font-size: 14px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .changePrincipalProduct {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: rgb(210, 210, 210);
+    border-radius: 100%;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-right: 2vh;
+  }
+  
+  .hrMainProduct{
+      display: none;
+  }
+  
+
+  
+  /* Dark Mode  */  /* Dark Mode  */  /* Dark Mode  */
+.PrincipalProduct {
+  background-color: white;
+  border-radius: 3px;
+}
+.principalProdcut-active {
+  background-color: rgb(32, 32, 32);
+  color: rgb(207, 185, 144);
+  box-shadow: 1px 1px 2px 1px white;
+}
+
+.color_black.is-active {
+  color: black;
+}
+
+.a-is-active {
+  color: white;
+}
+
+.conatiner_active{
+  background-color: white;
+}
+
+.principal_a_darkMode{
+  color: rgb(207, 185, 144);
+}
+  /* Dark Mode  */  /* Dark Mode  */  /* Dark Mode  */
+  
+  
