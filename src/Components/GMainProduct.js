@@ -10,6 +10,7 @@ import fourHeadphones from "../Images/fourPrincipalProduct.png";
 import fiveHeadphones from "../Images/fivePrincipalProduct.png";
 import HFree from "./HFree";
 import ISimilaarProducts from "./ISimilaarProducts";
+import KButtons from "./KButtons";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -27,10 +28,8 @@ const GPrincipalProduct = ({
 }) => {
   return (
     <>
-      <section
-        className={`PrincipalProduct ${darkMode && "principalProdcut-active"}`}
-      >
-        <section className="section_product_desktop">
+      <section className={`PrincipalProduct ${darkMode && "principalProdcut-active"}`} >
+        <aside className="section_product_desktop">
           <div className="newSold">
             <span>Nuevo</span>
             <hr className="hrMainProduct" />
@@ -67,7 +66,11 @@ const GPrincipalProduct = ({
               <span> Negro</span>
             </div>
           </section>
-        </section>
+
+          <div className="buttons_desktop">
+           <KButtons/>
+          </div>
+        </aside>
 
         <section>
           <div className="container_img_Principal">
@@ -146,6 +149,7 @@ const GPrincipalProduct = ({
           </a>
 
           <HFree />
+          <KButtons/>
         </section>
 
         <section className="productDesktop">

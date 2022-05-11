@@ -97,7 +97,7 @@
   height: 35px;
 }
 
-.PrincipalProduct_price {
+.PrincipalProduct_price{
   display: flex;
   flex-direction: column;
   margin: 1vh;
@@ -137,7 +137,8 @@
 .productDesktop,
 .price_principalProduct_Desktop,
 .fiveProductDesktop,
-.container {
+.container,
+.buttons_desktop {
   display: none;
 }
 
@@ -156,7 +157,8 @@
   }
   .productDesktop,
   .price_principalProduct_Desktop,
-  .container {
+  .container,
+  .buttons_desktop{
     display: block;
   }
   .price_principalProduct_Desktop {
