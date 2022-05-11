@@ -1,0 +1,18 @@
+.btn_darkMode{
+    padding: 2vh;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+.icon_dark_mode{
+    width: 25px;
+    height: 25px;
+}
+
+.icon_son_mode{
+    width: 25px;
+    height: 25px;
+}

@@ -38,3 +38,13 @@ hr{
     width: 98%;
     margin: 3px;
 }
+
+
+
+@media (min-width: 1000px){
+
+    .location_container{
+        display: none;
+      }
+    
+}

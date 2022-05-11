@@ -4,3 +4,13 @@ body {
   box-sizing: border-box;
 }
 
+
+.logo_desktop{
+  width: 15vh;
+  height: 5vh;
+}
+
+.logo_disney_desktop{
+      width: 35vh;
+      height: 6vh;
+}

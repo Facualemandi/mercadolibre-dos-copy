@@ -1,0 +1,26 @@
+.section_total_menu{
+    display: none;
+}
+
+@media (min-width: 1000px){
+    .section_total_menu{
+        display: block;
+    }
+    .total_menu_desktop{
+        list-style: none;
+        display: flex;
+        position: relative;
+        top: 1.7vh;
+   }
+   
+     .section_total_menu ul li {
+         margin-left: 16px;
+         font-family:Helvetica ,Helvetica,Arial,sans-serif;
+         font-size: 14px;
+         color: rgba(51,51,51,.6);
+         display: flex;
+         align-items: center;
+         text-align: center;
+         
+     }
+}
