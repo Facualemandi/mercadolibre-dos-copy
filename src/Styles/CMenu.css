@@ -1,0 +1,24 @@
+.container_menu{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(217, 217, 217);
+    left: -240px;
+    transition: 0.5s;
+}
+
+.container_menu.is-active{
+    left: 0px;
+    transition: 0.5s;
+}
+
+.devolucionesActiv{
+ color: rgb(0, 0, 0);
+}
+
+.container_menu li {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 15px 10px ;
+}
