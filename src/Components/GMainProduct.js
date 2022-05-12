@@ -18,6 +18,7 @@ import ODescriptionProduct from "./ODescriptionProduct";
 import PInformationSell from "./PInformationSell";
 import QOpinions from "./QOpinions";
 import RQquestions from "./RQquestions";
+import SAllComments from "./SAllComments";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -32,10 +33,24 @@ const GPrincipalProduct = ({
   productFour,
   productFive,
   darkMode,
+  searchValue,
+  setSearchValue,
+  question,
+  setQuestion,
+  valueComent,
+  setValueComent,
+  all,
+  setAll,
+  positive,
+  setPositive,
+  negative,
+  setNegative,
 }) => {
   return (
     <>
-      <section className={`PrincipalProduct ${darkMode && "principalProdcut-active"}`} >
+      <section
+        className={`PrincipalProduct ${darkMode && "principalProdcut-active"}`}
+      >
         <aside className="section_product_desktop">
           <div className="newSold">
             <span>Nuevo</span>
@@ -74,21 +89,18 @@ const GPrincipalProduct = ({
             </div>
           </section>
 
+          <section className="sections_aside">
+            <div className="buttons_desktop">
+              <KButtons />
+            </div>
+            <div className="Lsegurity">
+              <LSegurity />
+            </div>
 
-     <section className="sections_aside">
-          <div className="buttons_desktop">
-           <KButtons/>
-          </div>
-          <div className="Lsegurity">
-            <LSegurity/>
-          </div>
-          
-          <div className="information_vendedor">
-            <PInformationSell/>
-          </div>
-
-     </section>
-
+            <div className="information_vendedor">
+              <PInformationSell />
+            </div>
+          </section>
         </aside>
 
         <section>
@@ -135,25 +147,34 @@ const GPrincipalProduct = ({
               />
             )}
             <ISimilaarProducts />
-        
+
             <div className="div_features">
-             <NFeatures/>
-         
+              <NFeatures />
             </div>
-           
+
             <div className="Description_products">
-            <ODescriptionProduct/>
+              <ODescriptionProduct />
             </div>
 
             <div className="opionions_container">
-             <QOpinions/>
+              <QOpinions />
             </div>
-            
 
             <span className="changePrincipalProduct" onClick={onChangeProduct}>
               {" "}
               <BsArrowBarRight />
             </span>
+
+            <div className="div_questions">
+              <RQquestions
+                searchValue={searchValue}
+                setSearchValue={setSearchValue}
+                question={question}
+                setQuestion={setQuestion}
+                valueComent={valueComent}
+                setValueComent={setValueComent}
+              />
+            </div>
           </div>
 
           <div
@@ -182,20 +203,36 @@ const GPrincipalProduct = ({
           </a>
 
           <HFree />
-          <KButtons/>
-          <LSegurity/>
-          <hr/>
-          <MBuySimilarProducts darkMode={darkMode}/>
-          <hr/>
-          <PInformationSell/>
-          <hr/>
-          <NFeatures/>
-          <hr/>
-          <ODescriptionProduct/>
-          <hr/>
-          <QOpinions/>
-          <hr/>
-          <RQquestions/>
+          <KButtons />
+          <LSegurity />
+          <hr />
+          <MBuySimilarProducts darkMode={darkMode} />
+          <hr />
+          <PInformationSell />
+          <hr />
+          <NFeatures />
+          <hr />
+          <ODescriptionProduct />
+          <hr />
+          <QOpinions />
+          <hr />
+          <RQquestions
+            searchValue={searchValue}
+            setSearchValue={setSearchValue}
+            question={question}
+            setQuestion={setQuestion}
+            valueComent={valueComent}
+            setValueComent={setValueComent}
+          />
+          <hr />
+          <SAllComments
+            all={all}
+            setAll={setAll}
+            positive={positive}
+            setPositive={setPositive}
+            negative={negative}
+            setNegative={setNegative}
+          />
         </section>
 
         <section className="productDesktop">

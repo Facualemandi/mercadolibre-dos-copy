@@ -2,19 +2,49 @@ import React from "react";
 import "../Styles/RQuestions.css";
 import { BsArrowReturnRight } from "react-icons/bs";
 
-const RQquestions = () => {
+const newEntry = {
+  pregunta: "",
+};
+
+const RQquestions = ({
+  searchValue,
+  setSearchValue,
+  question,
+  setQuestion,
+  valueComent,
+  setValueComent,
+}) => {
+  const onAskQuestion = (e) => {
+    setSearchValue(e.target.value);
+    setQuestion({
+      ...newEntry,
+      pregunta: searchValue,
+    });
+  };
+
+  const returQuestion = (e) => {
+    if (searchValue.length > 0) {
+      setValueComent(searchValue)
+    } else {
+      setQuestion(false);
+    }
+  };
+
   return (
     <>
-      <section>
+      <section className="container_total_ask">
         <section className="ask">
           <p> Preguntale al vendedor </p>
+
           <textarea
+            onChange={onAskQuestion}
             className="textArea"
             rows="2"
             cols="20"
-            defaultValue={"Enter your question.."}
+            value={searchValue}
           ></textarea>
-          <button>Preguntar</button>
+
+          <button onClick={returQuestion}>Preguntar</button>
         </section>
 
         <h4 className="ultimasRealizadas">Ultimas realizadas</h4>
@@ -80,6 +110,10 @@ const RQquestions = () => {
                 descripción de la publicación. Saludos,
               </p>
             </span>
+          </section>
+
+          <section>
+            <p> {valueComent} </p>
           </section>
         </section>
       </section>
