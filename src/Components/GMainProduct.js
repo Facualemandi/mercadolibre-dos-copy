@@ -11,6 +11,9 @@ import fiveHeadphones from "../Images/fivePrincipalProduct.png";
 import HFree from "./HFree";
 import ISimilaarProducts from "./ISimilaarProducts";
 import KButtons from "./KButtons";
+import LSegurity from "./LSegurity";
+import MBuySimilarProducts from "./MBuySimilarProducts";
+import NFeatures from "./NFeatures";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -70,6 +73,10 @@ const GPrincipalProduct = ({
           <div className="buttons_desktop">
            <KButtons/>
           </div>
+          <div className="Lsegurity">
+            <LSegurity/>
+          </div>
+
         </aside>
 
         <section>
@@ -116,6 +123,8 @@ const GPrincipalProduct = ({
               />
             )}
             <ISimilaarProducts />
+            <NFeatures/>
+            
 
             <span className="changePrincipalProduct" onClick={onChangeProduct}>
               {" "}
@@ -150,6 +159,11 @@ const GPrincipalProduct = ({
 
           <HFree />
           <KButtons/>
+          <LSegurity/>
+          <hr/>
+          <MBuySimilarProducts darkMode={darkMode}/>
+          <hr/>
+          <NFeatures/>
         </section>
 
         <section className="productDesktop">

@@ -1,0 +1,37 @@
+.features_product{
+    font-family: sans-serif;
+    margin: 1vh;
+}
+
+.container_features{
+    margin: 1vh;
+    font-family:Helvetica ,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.container_features p{
+    margin-top: 1vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_feature{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    color: black;
+    margin-right: 5px;
+    border-radius: 100%;
+    background-color: rgb(222, 222, 222);
+}
+
+@media (min-width: 1000px){
+    .container_features{
+        width: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

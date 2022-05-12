@@ -29,7 +29,6 @@
   margin-left: 7px;
 }
 
-
 .icon_container span:nth-child(2) {
   font-size: 12px;
   font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
@@ -96,7 +95,7 @@
   height: 35px;
 }
 
-.PrincipalProduct_price{
+.PrincipalProduct_price {
   display: flex;
   flex-direction: column;
   margin: 1vh;
@@ -137,14 +136,15 @@
 .price_principalProduct_Desktop,
 .fiveProductDesktop,
 .container,
-.buttons_desktop {
+.buttons_desktop,
+.Lsegurity {
   display: none;
 }
 
 /* VERSION DESKTOP */ /* VERSION DESKTOP */ /* VERSION DESKTOP */
 
 @media (min-width: 1000px) {
-  .container_img_Principal{
+  .container_img_Principal {
     display: flex;
     flex-direction: column;
   }
@@ -155,15 +155,18 @@
     display: none;
   }
 
-  .container_colorAndimg{
+  .container_colorAndimg {
     display: none;
   }
   .productDesktop,
   .price_principalProduct_Desktop,
   .container,
-  .buttons_desktop{
+  .buttons_desktop,
+  .Lsegurity {
     display: block;
   }
+
+
   .price_principalProduct_Desktop {
     display: flex;
     flex-direction: column;
@@ -185,12 +188,14 @@
 
   .section_product_desktop {
     border: 1px solid rgb(200, 200, 200);
-    margin: 1vh;
+    margin: 2vh;
     border-radius: 5px;
+    height:  max-content;
+    padding-left: 1.5vh;
   }
 
   .PrincipalProduct {
-    width: 118vh;
+    width: 125vh;
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -209,7 +214,7 @@
     margin-top: 2vh;
   }
 
-  .icon_container{
+  .icon_container {
     margin-left: 1vh;
     margin-top: 2vh;
   }
@@ -276,25 +281,22 @@
     border-radius: 5px;
   }
 
-  .color_black{
+  .color_black {
     display: flex;
     align-items: center;
     margin: 1vh;
     margin-top: 2vh;
   }
-  .color_black span:nth-child(1){
+  .color_black span:nth-child(1) {
     font-size: 25px;
   }
-  .color_black span:nth-child(2){
+  .color_black span:nth-child(2) {
     margin-left: 1vh;
   }
-
 }
 
-
-
-
 /* Dark Mode  */ /* Dark Mode  */ /* Dark Mode  */
+
 .PrincipalProduct {
   box-shadow: 1px 1px 3px 1px rgb(196, 196, 196);
   border-radius: 3px;
