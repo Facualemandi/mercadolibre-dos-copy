@@ -16,6 +16,7 @@ import MBuySimilarProducts from "./MBuySimilarProducts";
 import NFeatures from "./NFeatures";
 import ODescriptionProduct from "./ODescriptionProduct";
 import PInformationSell from "./PInformationSell";
+import QOpinions from "./QOpinions";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -142,6 +143,10 @@ const GPrincipalProduct = ({
             <div className="Description_products">
             <ODescriptionProduct/>
             </div>
+
+            <div className="opionions_container">
+             <QOpinions/>
+            </div>
             
 
             <span className="changePrincipalProduct" onClick={onChangeProduct}>
@@ -186,6 +191,8 @@ const GPrincipalProduct = ({
           <NFeatures/>
           <hr/>
           <ODescriptionProduct/>
+          <hr/>
+          <QOpinions/>
         </section>
 
         <section className="productDesktop">

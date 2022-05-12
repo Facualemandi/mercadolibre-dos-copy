@@ -1,0 +1,133 @@
+
+.name_headphone {
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 1vh;
+  width: 45vh;
+}
+
+.container_promedio{
+    width: 20vh;
+}
+
+.container_total_opinion .container_promedio .fourStar {
+  font-size: 25px;
+}
+.container_promedio p {
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: grey;
+}
+.icon_promedio_star {
+  color: rgb(27, 118, 214);
+  width: 15px;
+  height: 15px;
+}
+
+.container_total_opinion {
+  display: flex;
+}
+
+
+.container_starts{
+    width: 40vh;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(129, 129, 129);
+}
+
+.p_stars{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+
+.line_blue{
+    width: 130px;
+    height: 6px;
+    border: 1px solid rgb(87, 171, 250);
+    border-radius: 5px;
+}
+
+.line_blue_five{
+    background-color: rgb(87, 171, 250);
+    width: 100px;
+    height: 5px;
+}
+
+.line_blue_four{
+    background-color: rgb(87, 171, 250);
+    width: 60px;
+    height: 5px;
+}
+.line_blue_three{
+    background-color: rgb(87, 171, 250);
+    width: 25px;
+    height: 5px;
+}
+.line_blue_two{
+    background-color: rgb(87, 171, 250);
+    width: 18px;
+    height: 5px;
+}
+.line_blue_one{
+    background-color: rgb(87, 171, 250);
+    width: 10px;
+    height: 5px;
+}
+
+
+@media (min-width: 1000px){
+
+    .name_headphone {
+        font-family: Helvetica, Helvetica, Arial, sans-serif;
+        font-size: 30px;
+        margin: 1vh;
+        width: 60vh;
+      }
+    .container_total_opinion{
+        width: 70vh;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container_promedio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container_starts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container_total_opinion .container_promedio .fourStar {
+        font-size: 40px;
+      }
+      .icon_promedio_star {
+        color: rgb(27, 118, 214);
+        width: 20px;
+        height: 20px;
+      }
+      .container_promedio p {
+        font-family: Helvetica, Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        color: grey;
+      }
+
+      .p_stars{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        padding: 1vh;
+        }
+
+
+
+}
+

@@ -142,7 +142,8 @@
 .Lsegurity,
 .div_features,
 .Description_products,
-.information_vendedor {
+.information_vendedor,
+.opionions_container {
   display: none;
 }
 
@@ -170,7 +171,8 @@
   .Lsegurity,
   .div_features,
   .Description_products,
-  .information_vendedor {
+  .information_vendedor,
+  .opionions_container {
     display: block;
   }
 
