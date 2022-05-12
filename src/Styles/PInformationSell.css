@@ -1,0 +1,111 @@
+.container_info{
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    padding-left: 1.5vh;
+    margin: auto;
+    font-family:Helvetica ,Helvetica,Arial,sans-serif;
+    
+}
+
+.container_info .p_info{
+    margin-top: 1vh;
+}
+
+.info_location{
+    display: flex;
+    margin-top: 1vh;
+}
+
+.info_location p {
+   display: flex;
+   flex-direction: column;
+}
+.info_location p  span:nth-child(1){
+    font-size: 16px;
+}
+.info_location p  span:nth-child(2){
+    font-size: 13px;
+    color: rgb(152, 152, 152);
+
+
+}
+.icon_medal{
+    color: green;
+}
+.mercadolibre_platinum{
+    display: flex;
+    margin-top: 2vh;
+}
+.mercadolibre_platinum p{
+    display: flex;
+    flex-direction: column;
+}
+.mercadolibre_platinum p span:nth-child(1){
+  color: rgb(39, 183, 39);
+  font-size: 14px;
+   
+}
+.mercadolibre_platinum p:nth-child(2){
+    font-size: 13px;
+    color: rgb(152, 152, 152);
+   
+}
+
+
+.colors_info{
+    display: grid;
+    height: 8px;
+    grid-template-columns: repeat(5, 65px);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.color{
+    width: 60px;
+    margin-right: 5px;
+}
+
+.colors_info .color:nth-child(1){
+    background-color: #fff0f0;
+}
+.colors_info .color:nth-child(2){
+    background-color: #fff5e8;
+}
+.colors_info .color:nth-child(3){
+    background-color: #fffcda;
+}
+.colors_info .color:nth-child(4){
+    background-color: #f1fdd7;
+}
+.colors_info .color:nth-child(5){
+    background-color: #39b54a;
+}
+
+
+.container_info_sell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.sales p:nth-child(1){
+  font-size: 18px;
+}
+.sales p:nth-child(2){
+  font-size: 12px;
+  color: grey;
+  margin-top: 1vh;
+}
+
+.atention p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 1vh;
+}
+
+.clock p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 1vh;
+}

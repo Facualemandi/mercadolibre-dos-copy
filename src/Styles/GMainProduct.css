@@ -132,13 +132,17 @@
   display: none;
 }
 
+
+
 .productDesktop,
 .price_principalProduct_Desktop,
 .fiveProductDesktop,
 .container,
 .buttons_desktop,
 .Lsegurity,
-.div_features {
+.div_features,
+.Description_products,
+.information_vendedor {
   display: none;
 }
 
@@ -163,7 +167,10 @@
   .price_principalProduct_Desktop,
   .container,
   .buttons_desktop,
-  .Lsegurity {
+  .Lsegurity,
+  .div_features,
+  .Description_products,
+  .information_vendedor {
     display: block;
   }
 
@@ -191,12 +198,12 @@
     border: 1px solid rgb(200, 200, 200);
     margin: 2vh;
     border-radius: 5px;
-    height:  max-content;
-    padding-left: 1.5vh;
+    height: 86vh;
+    width: 40vh;
   }
 
   .PrincipalProduct {
-    width: 125vh;
+    width: max-content;
     margin: auto;
     display: flex;
     flex-direction: row-reverse;

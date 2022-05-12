@@ -1,0 +1,26 @@
+.descripion p{
+    font-size: 25px;
+    font-family:Helvetica ,Helvetica,Arial,sans-serif;
+    margin: 2vh;
+}
+
+
+
+.container_description li{
+    list-style:circle;
+    margin: 2vh;
+    font-family:Helvetica ,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+}
+
+@media (min-width: 1000px){
+    .descripion{
+        width: 70vh;
+       
+    }
+    .container_description li{
+        font-size: 16px;
+
+    }
+}

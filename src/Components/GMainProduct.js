@@ -14,6 +14,8 @@ import KButtons from "./KButtons";
 import LSegurity from "./LSegurity";
 import MBuySimilarProducts from "./MBuySimilarProducts";
 import NFeatures from "./NFeatures";
+import ODescriptionProduct from "./ODescriptionProduct";
+import PInformationSell from "./PInformationSell";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -70,12 +72,20 @@ const GPrincipalProduct = ({
             </div>
           </section>
 
+
+     <section className="sections_aside">
           <div className="buttons_desktop">
            <KButtons/>
           </div>
           <div className="Lsegurity">
             <LSegurity/>
           </div>
+          
+          <div className="information_vendedor">
+            <PInformationSell/>
+          </div>
+
+     </section>
 
         </aside>
 
@@ -123,8 +133,14 @@ const GPrincipalProduct = ({
               />
             )}
             <ISimilaarProducts />
+        
             <div className="div_features">
              <NFeatures/>
+         
+            </div>
+           
+            <div className="Description_products">
+            <ODescriptionProduct/>
             </div>
             
 
@@ -165,7 +181,11 @@ const GPrincipalProduct = ({
           <hr/>
           <MBuySimilarProducts darkMode={darkMode}/>
           <hr/>
+          <PInformationSell/>
+          <hr/>
           <NFeatures/>
+          <hr/>
+          <ODescriptionProduct/>
         </section>
 
         <section className="productDesktop">
