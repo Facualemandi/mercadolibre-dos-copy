@@ -70,7 +70,6 @@
 
 .container_img_Principal {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -145,6 +144,10 @@
 /* VERSION DESKTOP */ /* VERSION DESKTOP */ /* VERSION DESKTOP */
 
 @media (min-width: 1000px) {
+  .container_img_Principal{
+    display: flex;
+    flex-direction: column;
+  }
   .PrincipalProduct_price {
     display: none;
   }
