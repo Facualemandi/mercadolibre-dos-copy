@@ -20,7 +20,7 @@
 
 .ask .textArea {
   padding: 1.5vh;
-  width: 45vh;
+  width: 100vw;
   border: none;
   border-radius: 5px;
 }
@@ -28,7 +28,7 @@
   font-family: Helvetica, Helvetica, Arial, sans-serif;
   background-color: #3483fa;
   padding: 1vh;
-  width: 45vh;
+  width: 100vw;
   height: 35px;
   border: none;
   margin-top: 10px;
