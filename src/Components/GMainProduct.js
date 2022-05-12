@@ -45,6 +45,9 @@ const GPrincipalProduct = ({
   setPositive,
   negative,
   setNegative,
+  positiveComments,
+  negativeComments,
+  allComments,
 }) => {
   return (
     <>
@@ -232,6 +235,9 @@ const GPrincipalProduct = ({
             setPositive={setPositive}
             negative={negative}
             setNegative={setNegative}
+            positiveComments={positiveComments}
+            negativeComments={negativeComments}
+            allComments={allComments}
           />
         </section>
 

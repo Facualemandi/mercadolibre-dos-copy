@@ -14,15 +14,14 @@ function App() {
   const [productThree, setProductThree] = useState(false);
   const [productFour, setProductFour] = useState(false);
   const [productFive, setProductFive] = useState(false);
-  const [question, setQuestion] = useState({})
+  const [question, setQuestion] = useState({});
 
+  const [all, setAll] = useState(true);
+  const [positive, setPositive] = useState(false);
+  const [negative, setNegative] = useState(false);
 
-  const [all, setAll] = useState(true)
-  const [positive, setPositive] = useState(false)
-  const [negative, setNegative] = useState(false)
-
-  const [searchValue, setSearchValue] = useState('')
-  const [valueComent, setValueComent] = useState('')
+  const [searchValue, setSearchValue] = useState("");
+  const [valueComent, setValueComent] = useState("");
 
   const openMenu = () => {
     menu ? setMenu(false) : setMenu(true);
@@ -91,7 +90,21 @@ function App() {
     setProductFive(true);
   };
 
-
+  const positiveComments = () => {
+    setPositive(true)
+    setAll(false);
+    setNegative(false);
+  };
+  const negativeComments = () => {
+    setPositive(false);
+    setAll(false);
+    setNegative(true);
+  };
+  const allComments = () => {
+    setPositive(false);
+    setAll(true);
+    setNegative(false);
+  };
 
   return (
     <>
@@ -123,6 +136,9 @@ function App() {
         setPositive={setPositive}
         negative={negative}
         setNegative={setNegative}
+        positiveComments={positiveComments}
+        negativeComments={negativeComments}
+        allComments={allComments}
       />
     </>
   );
