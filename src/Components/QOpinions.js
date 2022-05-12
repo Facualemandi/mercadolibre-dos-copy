@@ -26,45 +26,46 @@ const QOpinions = () => {
           </section>
 
           <section className="container_starts">
-            <p className="p_stars">
+            <div className="p_stars">
               5 estrellas
-              <p className="line_blue">
-                <p className="line_blue_five"></p>
-              </p>
+              <div className="line_blue">
+                <div className="line_blue_five"></div>
+              </div>
               <span>756</span>
-            </p>
+            </div>
 
-            <p className="p_stars">
+            <div className="p_stars">
               4 estrellas
-              <p className="line_blue">
-                <p className="line_blue_four"></p>
-              </p>
+              <div className="line_blue">
+                <div className="line_blue_four"></div>
+              </div>
               <span>486</span>
-            </p>
+            </div>
 
-            <p className="p_stars">
+            <div className="p_stars">
               3 estrellas
-              <p className="line_blue">
-                <p className="line_blue_three"></p>
-              </p>
+              <div className="line_blue">
+                <div className="line_blue_three"></div>
+              </div>
               <span>146</span>
-            </p>
+            </div>
 
-            <p className="p_stars">
+            <div className="p_stars">
               2 estrellas
-              <p className="line_blue">
-                <p className="line_blue_two"></p>
-              </p>
+              <div className="line_blue">
+                <div className="line_blue_two"></div>
+              </div>
               <span>113</span>
-            </p>
+            </div>
 
-            <p className="p_stars">
+            <div className="p_stars">
               1 estrellas
-              <p className="line_blue">
-                <p className="line_blue_one"></p>
-              </p>
+              <div className="line_blue">
+                <div className="line_blue_one"></div>
+              </div>
               <span>103</span>
-            </p>
+            </div>
+            
           </section>
         </section>
       </section>

@@ -17,6 +17,7 @@ import NFeatures from "./NFeatures";
 import ODescriptionProduct from "./ODescriptionProduct";
 import PInformationSell from "./PInformationSell";
 import QOpinions from "./QOpinions";
+import RQquestions from "./RQquestions";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -193,6 +194,8 @@ const GPrincipalProduct = ({
           <ODescriptionProduct/>
           <hr/>
           <QOpinions/>
+          <hr/>
+          <RQquestions/>
         </section>
 
         <section className="productDesktop">
