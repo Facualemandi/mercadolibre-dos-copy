@@ -123,7 +123,9 @@ const GPrincipalProduct = ({
               />
             )}
             <ISimilaarProducts />
-            <NFeatures/>
+            <div className="div_features">
+             <NFeatures/>
+            </div>
             
 
             <span className="changePrincipalProduct" onClick={onChangeProduct}>

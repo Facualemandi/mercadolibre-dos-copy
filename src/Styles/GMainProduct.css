@@ -137,7 +137,8 @@
 .fiveProductDesktop,
 .container,
 .buttons_desktop,
-.Lsegurity {
+.Lsegurity,
+.div_features {
   display: none;
 }
 
