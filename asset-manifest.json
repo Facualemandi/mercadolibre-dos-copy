@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mercadolibre-dos-copy/static/css/main.02253d34.css",
-    "main.js": "/mercadolibre-dos-copy/static/js/main.aae512ef.js",
+    "main.css": "/mercadolibre-dos-copy/static/css/main.3c9efd63.css",
+    "main.js": "/mercadolibre-dos-copy/static/js/main.4b040c25.js",
     "static/media/logoMc.png": "/mercadolibre-dos-copy/static/media/logoMc.1d4e13b5be71258d3507.png",
     "static/media/promodisneysub.png": "/mercadolibre-dos-copy/static/media/promodisneysub.b82ab0574d2e330062ad.png",
     "static/media/productosVendidos1.png": "/mercadolibre-dos-copy/static/media/productosVendidos1.6d248dd1fa7117265b58.png",
@@ -12,11 +12,11 @@
     "static/media/principalAuriculares.png": "/mercadolibre-dos-copy/static/media/principalAuriculares.e0bf7caff311444a975f.png",
     "static/media/secondPrincipalProduct.png": "/mercadolibre-dos-copy/static/media/secondPrincipalProduct.26ee7567ddde1ccdbfed.png",
     "index.html": "/mercadolibre-dos-copy/index.html",
-    "main.02253d34.css.map": "/mercadolibre-dos-copy/static/css/main.02253d34.css.map",
-    "main.aae512ef.js.map": "/mercadolibre-dos-copy/static/js/main.aae512ef.js.map"
+    "main.3c9efd63.css.map": "/mercadolibre-dos-copy/static/css/main.3c9efd63.css.map",
+    "main.4b040c25.js.map": "/mercadolibre-dos-copy/static/js/main.4b040c25.js.map"
   },
   "entrypoints": [
-    "static/css/main.02253d34.css",
-    "static/js/main.aae512ef.js"
+    "static/css/main.3c9efd63.css",
+    "static/js/main.4b040c25.js"
   ]
 }
