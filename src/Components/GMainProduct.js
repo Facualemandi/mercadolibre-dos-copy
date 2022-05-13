@@ -160,6 +160,7 @@ const GPrincipalProduct = ({
             </div>
 
             <div className="opionions_container">
+              <hr/>
               <QOpinions />
             </div>
 
@@ -177,6 +178,20 @@ const GPrincipalProduct = ({
                 valueComent={valueComent}
                 setValueComent={setValueComent}
               />
+            </div>
+
+            <div className="total_all_comments">
+            <SAllComments
+            all={all}
+            setAll={setAll}
+            positive={positive}
+            setPositive={setPositive}
+            negative={negative}
+            setNegative={setNegative}
+            positiveComments={positiveComments}
+            negativeComments={negativeComments}
+            allComments={allComments}
+          />
             </div>
           </div>
 

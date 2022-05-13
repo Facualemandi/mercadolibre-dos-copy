@@ -1,49 +1,65 @@
-
-.section_total_comments{
-    display: flex;
-    justify-content: space-between;
+.section_total_comments {
+  display: flex;
+  justify-content: space-between;
 }
-.section_total_comments button{
-    padding: 1.5vh;
-    width: 200px;
-    cursor: pointer;
-    margin: 5px;
-    border: none;
-    box-shadow: 1px 1px 3px 1px rgb(194, 194, 194);
-    border-radius: 5px;
-    font-weight: bold;
-}
-.section_total_comments button:nth-child(1){
-    background-color: rgb(189, 189, 189);
-}
-.section_total_comments button:nth-child(2){
-    background-color: rgb(231, 254, 225);
-}
-.section_total_comments button:nth-child(3){
-    background-color: rgb(255, 214, 214);
+.section_total_comments button {
+  padding: 1.5vh;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 3px 1px rgb(194, 194, 194);
+  font-weight: bold;
 }
 
-
-.conatiner_comments section{
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 10px;
+.conatiner_comments section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
-.span_comments{
-    font-weight: bold;
-    margin-top: 10px;
+.span_comments {
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-.conatiner_comments section p{
+.conatiner_comments section p {
   font-size: 16px;
-  font-family:Helvetica ,Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
   color: rgb(100, 100, 100);
   margin-top: 5px;
-
 }
 
-.iconStar_comment{
-    color: rgb(106, 156, 248);
-    margin-top: 6px;
+.iconStar_comment {
+  color: rgb(106, 156, 248);
+  margin-top: 6px;
+}
+
+@media (min-width: 1000px) {
+  .section_container_all_comments {
+    width: 80vh;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+
+  .section_total_comments {
+    width: 90vh;
+  }
+
+  .section_total_comments button {
+    background-color: white;
+    width: 90vh;
+  }
+  .section_total_comments button:hover {
+    background-color: rgb(178, 224, 255);
+    width: 35vh;
+    transition: 0.5s;
+  }
+
+  .section_total_comments .btnComments {
+    width: 30vh;
+  }
+
+  .conatiner_comments{
+    margin-top: 3vh;
+  }
 }

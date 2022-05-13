@@ -144,7 +144,8 @@
 .Description_products,
 .information_vendedor,
 .opionions_container,
-.div_questions {
+.div_questions,
+.total_all_comments {
   display: none;
 }
 
@@ -174,7 +175,8 @@
   .Description_products,
   .information_vendedor,
   .opionions_container,
-  .div_questions {
+  .div_questions,
+  .total_all_comments {
     display: block;
   }
 

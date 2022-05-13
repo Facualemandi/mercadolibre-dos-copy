@@ -21,3 +21,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+
+@media (min-width:1000px){
+  .btn_darkMode{
+    display: none;
+  }
+}

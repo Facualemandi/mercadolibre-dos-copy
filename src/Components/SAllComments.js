@@ -16,11 +16,11 @@ const SAllComments = ({
 }) => {
   return (
     <>
-      <section>
+      <section className="section_container_all_comments" >
         <section className="section_total_comments">
-          <button onClick={allComments}>Todas</button>
-          <button onClick={positiveComments}>Positivas</button>
-          <button onClick={negativeComments}>Negativas</button>
+          <button className="btnComments" onClick={allComments}>Todas</button>
+          <button className="btnComments" onClick={positiveComments}>Positivas</button>
+          <button className="btnComments" onClick={negativeComments}>Negativas</button>
         </section>
 
         {all && (
