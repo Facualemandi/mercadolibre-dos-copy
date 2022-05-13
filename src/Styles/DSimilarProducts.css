@@ -1,9 +1,6 @@
 .darkMode {
   background-color: rgb(32, 32, 32);
 }
-.cheap.is-active {
-  color: rgb(207, 185, 144);
-}
 
 .headphones {
   width: 95px;
@@ -89,7 +86,7 @@
 
   .cheap {
     width: 118.5vh;
-    margin: 0.5vh auto;
+    margin: auto;
     padding-right: 10px;
     font-size: 24px;
     color: black;

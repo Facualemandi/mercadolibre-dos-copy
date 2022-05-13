@@ -6,7 +6,8 @@ import '../Styles/TPositiveComments.css'
 const TPositiveComments = () => {
   return (
     <>
-      <section>
+    <section className="section_comments">
+      <section >
         <div>
           <AiFillStar className="iconStar_comment" />
           <AiFillStar className="iconStar_comment" />
@@ -62,6 +63,8 @@ const TPositiveComments = () => {
           tener que preocupar por eso.
         </p>
       </section>
+
+    </section>
     </>
   );
 };

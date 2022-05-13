@@ -232,7 +232,7 @@ const GPrincipalProduct = ({
             Ver los medios de pago
           </a>
 
-          <HFree />
+          <HFree darkMode={darkMode} />
           <KButtons />
           <LSegurity />
           <hr />

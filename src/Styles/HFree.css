@@ -61,3 +61,7 @@
 a{
     font-size: 16px;
 }
+
+.a_active_darkmode{
+    color: white;
+}
