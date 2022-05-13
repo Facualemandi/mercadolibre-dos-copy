@@ -28,7 +28,7 @@
 
 @media (min-width: 1000px){
     .container_features{
-        width: 60vh;
+        width: 70vh;
         display: flex;
         flex-direction: column;
     }

@@ -3,7 +3,9 @@
 }
 
 /* VERSION MOBILE */ /* VERSION MOBILE */ /* VERSION MOBILE */
-
+.PrincipalProduct {
+  background-color: white;
+}
 .newSold {
   display: flex;
   color: #75757e;
@@ -145,7 +147,8 @@
 .information_vendedor,
 .opionions_container,
 .div_questions,
-.total_all_comments {
+.total_all_comments,
+.cards {
   display: none;
 }
 
@@ -176,7 +179,8 @@
   .information_vendedor,
   .opionions_container,
   .div_questions,
-  .total_all_comments {
+  .total_all_comments,
+  .cards {
     display: block;
   }
 

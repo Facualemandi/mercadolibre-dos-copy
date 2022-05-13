@@ -92,6 +92,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 2vh;
+    width: 37vh;
 }
 
 .sales p:nth-child(1){
@@ -103,6 +104,18 @@
   margin-top: 1vh;
 }
 
+.sales{
+    width: 15vh;
+}
+.atention{
+    width: 10vh;
+
+    
+}
+.clock{
+    width: 15vh;
+
+}
 .atention p{
     font-size: 12px;
     color: grey;

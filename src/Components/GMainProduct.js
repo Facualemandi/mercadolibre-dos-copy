@@ -19,6 +19,7 @@ import PInformationSell from "./PInformationSell";
 import QOpinions from "./QOpinions";
 import RQquestions from "./RQquestions";
 import SAllComments from "./SAllComments";
+import VCards from "./VCards";
 
 const GPrincipalProduct = ({
   onChangeProduct,
@@ -103,6 +104,10 @@ const GPrincipalProduct = ({
             <div className="information_vendedor">
               <PInformationSell />
             </div>
+
+            <div className="cards">
+                <VCards/>
+            </div>
           </section>
         </aside>
 
@@ -153,6 +158,7 @@ const GPrincipalProduct = ({
 
             <div className="div_features">
               <NFeatures />
+              <hr/>
             </div>
 
             <div className="Description_products">
@@ -177,8 +183,12 @@ const GPrincipalProduct = ({
                 setQuestion={setQuestion}
                 valueComent={valueComent}
                 setValueComent={setValueComent}
+                darkMode={darkMode}
+               
               />
             </div>
+
+    
 
             <div className="total_all_comments">
             <SAllComments
@@ -193,6 +203,8 @@ const GPrincipalProduct = ({
             allComments={allComments}
           />
             </div>
+
+           
           </div>
 
           <div
@@ -231,6 +243,8 @@ const GPrincipalProduct = ({
           <NFeatures />
           <hr />
           <ODescriptionProduct />
+          <hr/>
+          <VCards/>
           <hr />
           <QOpinions />
           <hr />
@@ -241,6 +255,7 @@ const GPrincipalProduct = ({
             setQuestion={setQuestion}
             valueComent={valueComent}
             setValueComent={setValueComent}
+            darkMode={darkMode}
           />
           <hr />
           <SAllComments

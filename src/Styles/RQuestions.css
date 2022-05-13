@@ -1,10 +1,11 @@
+
+
 .ask {
   display: flex;
   flex-direction: column;
 }
 
 .ask p {
-  color: rgb(0, 0, 0);
   font-family: Helvetica, Helvetica, Arial, sans-serif;
   font-family: 16px;
   font-weight: bold;
@@ -49,11 +50,10 @@
 .container_questions p {
   font-family: Helvetica, Helvetica, Arial, sans-serif;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.9);
   font-weight: 400;
 }
 
-.container_questions span p {
+.response{
   font-size: 14px;
   color: rgb(135, 135, 135);
   margin-left: 10px;
@@ -62,6 +62,10 @@
 
 .container_questions section {
   margin-bottom: 10px;
+}
+
+.questionDark{
+  color: white;
 }
 
 @media (min-width: 1000px) {

@@ -1,0 +1,36 @@
+.total_cards{
+    border: 1px solid rgb(196, 196, 196);
+    margin-top: 1vh;
+    border-radius: 5px;
+}
+
+.total_cards section{
+   margin: 10px;
+   margin-bottom: 20px;
+}
+
+.cuotas p{
+  margin-top: 15px;
+}
+.cuotas img{
+    margin-top: 15px;
+}
+
+.credits_cards span{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+
+.total_credits_cards img{
+    margin-right: 3vh;
+}
+
+.total_debito_cards img{
+    margin-right: 3vh;
+    margin-top: 1.5vh;
+}
+.efective img{
+    margin-top: 1.5vh;
+    margin-right: 2vh;
+}
